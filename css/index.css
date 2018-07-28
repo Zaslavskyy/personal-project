@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.875em;
+    line-height: 1.6em;
+}
+
+nav {
+    background-color: #329209;
+    height: 175px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 18px;
+    background-position: center center;
+}
+header nav {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+.line { 
+    border-left: 2px solid #02091A;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+#title {
+    background-color: #329209;
+    height: 175px;
+    margin: 0;
+    padding: 0;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+h3 {
+    margin: 0;
+    font-size: 26px;
+}
+#cover {
+    background-image: url("../img/icelandcover.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+    margin: 0;
+    padding: 0;
+}
+#cover h1 {
+    min-width: 10%;
+    text-align: center;
+    color: white;
+    font-size: 144px;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+#date {
+    min-width: 10%;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+position: absolute;
+        top: 80%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
+#people {
+   min-width: 10%;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+position: absolute;
+        top: 90%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
+.mybutton {
+    position: absolute;
+    bottom: -35%;
+    left: 37.5%;
+	-moz-box-shadow:inset 0px 0px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #caefab;
+	box-shadow:inset 0px 0px 0px 0px #caefab;
+	background-color:#77d42a;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:2px solid #329209;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Verdana;
+	font-size:21px;
+	font-weight:bold;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #aade7c;
+}
+.myButton:hover {
+	background-color:#5cb811;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
