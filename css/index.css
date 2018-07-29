@@ -176,9 +176,62 @@ span {
     font-size: 30px;
     font-family: Helvetica, sans-serif;
 }
-#infographic > img {
+.nature {
     margin: 0;
     padding: 0;
     border: 0;
     float: left;
+}
+#hotspring {
+  background: url("../img/hotspring.jpg") no-repeat center top;
+  height: 250px;
+  width: 400px;
+  margin: 0 auto;
+}
+.onpictures {
+  opacity: 0;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+  line-height: 250px;
+  text-align: center;
+  color: white;
+  transition: .5s ease;
+  margin: 0;
+}
+
+div:hover .onpictures {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+#glacier {
+  background: url("../img/glacier.jpg") no-repeat center top;
+  height: 250px;
+  width: 400px;
+  margin: 0 auto;
+}
+#waterfall {
+  background: url("../img/waterfall.jpg") no-repeat center top;
+  height: 250px;
+  width: 400px;
+  margin: 0 auto;
+}
+#geyser {
+  background: url("../img/geyser.jpg") no-repeat center top;
+  height: 250px;
+  width: 400px;
+  margin: 0 auto;
+}
+#nature {
+  background: url("../img/nature.jpg") no-repeat center top;
+  height: 250px;
+  width: 400px;
+  margin: 0 auto;
+}
+#town {
+  background: url("../img/town.jpg") no-repeat center top;
+  height: 250px;
+  width: 400px;
+  margin: 0 auto;
 }
