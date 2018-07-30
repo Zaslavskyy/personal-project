@@ -55,7 +55,10 @@ h2 {
 }
 h3 {
     margin: 0;
-    font-size: 26px;
+    font-size: 30px;
+    padding-top: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
 }
 #cover {
     background-image: url("../img/icelandcover.jpg");
@@ -139,37 +142,12 @@ position: absolute;
     padding-left: 10px;
 }
 span {
-    width: 100%;
     font-size: 24px;
     font-family: Helvetica, sans-serif;
 }
 .shortinfo {
-    width: 100%;
     font-size: 18px;
     font-family: Helvetica, sans-serif;
-}
-#idea span {
-   position: absolute;
-  top: 168%;
-    left: 29%;
-}
-#experience span {
-   position: absolute;
-  top: 168%;
-    left: 47%;
-}
-#prog span {
-   position: absolute;
-  top: 168%;
-    left: 65%;
-}
-#impress span {
-   position: absolute;
-  top: 168%;
-    left: 85%;
-}
-.info {
-    width: 100%;
 }
 .places {
     padding-top: 55px;
@@ -247,10 +225,6 @@ main {
     width: 100%;
 }
 .euro {
-    margin:0;
-    position: absolute;
-    left: 100px;
-    top: 3060px;
     font-size: 36px;
     font-style: inherit;
 }
@@ -283,11 +257,21 @@ main {
     color: white;
     text-align: center;
     top: 80%;
-    left: 50%;
 }
 #previoustrip {
     padding-top: 20px;
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
     text-align: center;
+}
+#infographic {
+    display: flex;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 25px;
+    border-bottom: 2px solid #329209;
+    padding-bottom: 25px;
+}
+.info {
+    width: 25%;
 }
