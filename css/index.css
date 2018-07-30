@@ -46,9 +46,12 @@ header nav a:hover {
     left: 50%;
 }
 h2 {
+    padding-top: 15px;
     margin-top: 0;
     margin-bottom: 50px;
-    font-size: 48px;
+    font-size: 36px;
+    text-align: center;
+    max-width: 100%
 }
 h3 {
     margin: 0;
@@ -234,4 +237,57 @@ div:hover .onpictures {
   height: 250px;
   width: 400px;
   margin: 0 auto;
+}
+
+#price {
+    width: 100%;
+    border-bottom: 2px solid #329209;
+}
+main {
+    width: 100%;
+}
+.euro {
+    margin:0;
+    position: absolute;
+    left: 100px;
+    top: 3060px;
+    font-size: 36px;
+    font-style: inherit;
+}
+#bluelagoon {
+    float: right;
+    padding: 0 20px 20px 0;
+}
+
+#whale {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+#blackbeach {
+    float: right;
+    padding: 0 20px 20px 0;
+}
+#hotgeyser {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+#tourprogram {
+    margin-bottom: 65px;
+}
+#photoreport {
+    background-color: #329209;
+    height: 175px;
+    margin-top: 20px;
+    padding: 0;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+}
+#previoustrip {
+    padding-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    text-align: center;
 }
