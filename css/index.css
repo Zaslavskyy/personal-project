@@ -275,3 +275,47 @@ main {
 .info {
     width: 25%;
 }
+#price {
+    display: flex;
+    text-align: left;
+    border-bottom: 2px solid #329209;
+    padding-bottom: 120px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+h5 {
+    margin-bottom: 15px;
+}
+#infographrow {
+  display: flex;
+  flex-direction: column;
+}
+#infographrow img {
+float: left;
+padding-right: 15px;
+}
+.euro {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+.price {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+li span {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#infographrow, #additionrow {
+    width:30%;
+}
+#centralrow {
+    width:40%;
+}

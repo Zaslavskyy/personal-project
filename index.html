@@ -14,7 +14,7 @@
         <nav>
             <a href="#infographic">Враження</a>
             <a href="#map" class="line">Карта маршруту</a>
-            <a href="#program" class="line">Програма туру</a>
+            <a href="#price" class="line">Програма туру</a>
             <a href="#contacts" class="line">Контакти</a>
         </nav>
         <div id="title">
@@ -99,51 +99,63 @@
           </iframe>
     </div>
     <main>
-        <div id="price">
-            <a id="program"></a>
             <h2>Що входить у вартість</h2>
-            <p class="euro">€2650</p>
-            <img src="img/iconcalendar.jpg" alt="Календар">
-            <img src="img/iconpeople.jpg" alt="Люди">
-            <img src="img/iconphoto.jpg" alt="Фотоапарат">
-            <img src="img/iconbag.jpg" alt="Рюкзак">
-            <p class="price">
-             12 місць в групі
-            </p>
-             <p class="price">
-                8 днів
-            </p>
-              <p class="price">
-                фотозвіт
-            </p>
-              <p class="price">
-                супровід
-            </p>
-           <ul>
-                <li>розміщення по маршруту в комфортних готелях 3 *;</li>
-                <li>зустріч в аеропорту, трансфер в/з аеропорту в день прибуття/відбуття;</li>
-                <li>харчування напівпансіон (сніданки + обіди);</li>
-                <li>транспортні витрати;</li>
-                <li>послуги гіда;</li>
-                <li>екскурсійна програма;</li>
-                <li>вхідний квиток в північну термальну лагуну;</li>
-                <li>вхідні квитки в музеї по маршруту.</li>
-            </ul>
-           <h5>Додатково</h5>
-           <ul>
-                <li>авіа переліт (від 400 євро);</li>
-                <li>оформлення шенгенської візи (для тих в кого немає біометричного паспорта) і медичної страховки:
-                    <ul>
-                        <li>дорослий - 80 євро;</li>
-                        <li>неповнолітній до 6 років, пенсіонер - 45 євро;</li>
-                    </ul>
-                </li>
-                <li>обіди;</li>
-                <li>витрати на особисті потреби;</li>
-                <li>прогулянка на човні по лагуні з айсбергами - 30-40 євро/чол.;</li>
-                <li>морська прогулянка на кораблі і сафарі на китів - 65-80 євро/чол.</li>
-           </ul>
-        </div>
+            <div id="price">
+            <div class="pricerows" id="infographrow">
+                <p class="euro">€2650</p>
+                <div id="calendar">
+                    <img src="img/iconcalendar.jpg" alt="Календар">
+                    <p class="price">
+                     8 днів
+                    </p>
+                </div>
+                <div id="peoplegroup">
+                    <img src="img/iconpeople.jpg" alt="Люди">
+                    <p class="price">
+                    12 місць в групі
+                    </p>
+                </div>
+                <div id="photocamera">
+                    <img src="img/iconphoto.jpg" alt="Фотоапарат">
+                   <p class="price">
+                    фотозвіт
+                    </p>
+                </div>
+                <div id="bag">
+                    <img src="img/iconbag.jpg" alt="Рюкзак">
+                    <p class="price">
+                    супровід
+                    </p>
+                </div>
+            </div>
+            <div class="pricerows" id="centralrow">
+               <ul>
+                    <li>розміщення по маршруту в комфортних готелях 3 *;</li>
+                    <li>зустріч в аеропорту, трансфер в/з аеропорту в день прибуття/відбуття;</li>
+                    <li>харчування напівпансіон (сніданки + обіди);</li>
+                    <li>транспортні витрати;</li>
+                    <li>послуги гіда;</li>
+                    <li>екскурсійна програма;</li>
+                    <li>вхідний квиток в північну термальну лагуну;</li>
+                    <li>вхідні квитки в музеї по маршруту.</li>
+                </ul>
+            </div>
+           <div class="pricerows" id="additionrow"><h5>Додатково</h5>
+               <ul>
+                    <li>авіа переліт <span>(від 400 євро)</span>;</li>
+                    <li>оформлення шенгенської візи (для тих в кого немає біометричного паспорта) і медичної страховки:
+                        <ul>
+                            <li>дорослий - <span>80 євро</span>;</li>
+                            <li>неповнолітній до 6 років, пенсіонер - <span>45 євро</span>;</li>
+                        </ul>
+                    </li>
+                    <li>обіди;</li>
+                    <li>витрати на особисті потреби;</li>
+                    <li>прогулянка на човні по лагуні з айсбергами - <span>30-40 євро/чол.</span>;</li>
+                    <li>морська прогулянка на кораблі і сафарі на китів - <span>65-80 євро/чол.</span></li>
+               </ul>
+            </div>
+        </div>   
          <div id="tourprogram">
             <section id="firstsecond">
                 <img src="img/bluelagoon.jpg" alt="Голуба лагуна" id="bluelagoon">
