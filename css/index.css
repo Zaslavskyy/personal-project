@@ -211,25 +211,6 @@ main {
     font-size: 36px;
     font-style: inherit;
 }
-#bluelagoon {
-    float: right;
-    padding: 0 20px 20px 0;
-}
-#whale {
-    float: left;
-    padding: 0 20px 20px 0;
-}
-#blackbeach {
-    float: right;
-    padding: 0 20px 20px 0;
-}
-#hotgeyser {
-    float: left;
-    padding: 0 20px 20px 0;
-}
-#tourprogram {
-    margin-bottom: 65px;
-}
 #photoreport {
     background-color: #329209;
     height: 175px;
@@ -297,4 +278,23 @@ li span {
 }
 #centralrow {
     width:40%;
+}
+#tourprogram {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.firstdayimg {
+    background: url("../img/bluelagoon.jpg") no-repeat center top;
+}
+.thirddayimg {
+    background: url("../img/whalewatching.jpg") no-repeat center top;
+}
+.fifthdayimg {
+    background: url("../img/blackbeach.jpg") no-repeat center top;
+}
+.seventhdayimg {
+    background: url("../img/hotgeyser.jpg") no-repeat center top;
+}
+#fifthsixth {
+    padding-left: 30px;
 }
