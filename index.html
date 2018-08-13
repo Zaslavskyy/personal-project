@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ісландія</title>
     <link rel="icon" type="img/png" href="img/favicon-32x32.png" sizes="32x32">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.green.css">
     <link href="css/index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
@@ -13,9 +15,9 @@
     <header>
         <nav>
             <a href="#infographic">Враження</a>
-            <a href="#map" class="line">Карта маршруту</a>
+            <a href="#googlemap" class="line">Карта маршруту</a>
             <a href="#price" class="line">Програма туру</a>
-            <a href="#contacts" class="line">Контакти</a>
+            <a href="#contactform" class="line">Контакти</a>
         </nav>
         <div id="title">
         <h2 id="avtor">Авторська подорож</h2>
@@ -26,7 +28,7 @@
         <h1>Ісландія</h1>
         <h2 id="date">15-22 травня 2019</h2>
         <h2 id="people">12 місць в групі</h2>
-        <div id="button"><a href="#contacts" class="mybutton">Отримати програму</a></div>
+        <div id="button"><a href="#contactform" class="mybutton">Отримати програму</a></div>
     </div>
     <div id="infographic">
         <div class="info">
@@ -92,10 +94,9 @@
             Міста
             </p>
        </div>
-    </div>
+  
     <div id="googlemap">
-         <a id="map"></a>
-          <iframe src="https://www.google.com/maps/d/embed?mid=1L6R7djrZbHuCdcRCZFY6fKamCpblH6aK" width="1200" height="800">
+          <iframe src="https://www.google.com/maps/d/embed?mid=1L6R7djrZbHuCdcRCZFY6fKamCpblH6aK" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen>
           </iframe>
     </div>
     <main>
@@ -233,14 +234,14 @@
         <h2 id="previoustrip">Фотозвіт про попередні подорожі</h2>
         <h3>Перегляньте найкращі моменти з наших подорожей</h3>
     </div>
-    <figure id="photoreportimages">
-        <img src="img/girlsonrock.jpg" alt="Дівчата на скелі">
-        <img src="img/girlwithbag.jpg" alt="Дівчина з рюкзаком">
-        <img src="img/child.jpg" alt="Дитина">
-        <img src="img/jump.jpg" alt="Стрибок">
-    </figure>
+    <div id="slider_container" class="owl-carousel owl-theme">
+        <div><img src="img/girlsonrock.jpg" alt="Дівчата на скелі"></div>
+        <div><img src="img/girlwithbag.jpg" alt="Дівчина з рюкзаком"></div>
+        <div><img src="img/child.jpg" alt="Дитина"></div>
+        <div><img src="img/jump.jpg" alt="Стрибок"></div>
+        <div><img src="img/friends.jpg" alt="Друзі"></div>
+    </div>
     <div id="contactform">
-        <a id="contacts"></a>
         <h2>Дізнайтесь усі деталі подорожі</h2>
        <form method="POST" action="https://formspree.io/oleh.zaslavskyy@gmail.com">
            <input type="text" name="name" value="Ім'я"/>
@@ -261,5 +262,12 @@
             <a href="#contacts">Контакти</a>
         </nav>
     </footer>
+    <script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous">
+    </script>
+    <script src="owlcarousel/owl.carousel.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
