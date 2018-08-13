@@ -8,6 +8,11 @@
     <link rel="icon" type="img/png" href="img/favicon-32x32.png" sizes="32x32">
     <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.green.css">
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
@@ -242,18 +247,17 @@
         <div><img src="img/friends.jpg" alt="Друзі"></div>
     </div>
     <div id="contactform">
-        <h2>Дізнайтесь усі деталі подорожі</h2>
+        <h2 id="details">Дізнайтесь усі деталі подорожі</h2>
        <form method="POST" action="https://formspree.io/oleh.zaslavskyy@gmail.com">
            <input type="text" name="name" value="Ім'я"/>
            <input type="tel" name="phone" value="Телефон" required/>
-           <input type="email" name="email" value="E-mail" required>
-           <input type="image" src="img/button.jpg" name="button" alt="Отримати програму туру">
+           <input type="email" name="email" value="E-mail" name="_replyto" required>
+           <label>Залиште контакти і ми надішлемо Вам детальну програму</label>
+           <button type="submit" class="btn btn-success btn-lg">Отримати програму туру</button>
        </form>
-       <h3>Залиште контакти і ми надішлемо Вам детальну програму</h3>
     </div>
     <footer>
         <div id="socialnetworks">
-            
         </div>
         <nav>
             <a href="#impression">Враження</a>
@@ -263,9 +267,19 @@
         </nav>
     </footer>
     <script
-	src="https://code.jquery.com/jquery-3.3.1.min.js"
-	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-	crossorigin="anonymous">
+	    src="https://code.jquery.com/jquery-3.3.1.min.js"
+	    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	    crossorigin="anonymous">
+    </script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous">
+    </script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous">
     </script>
     <script src="owlcarousel/owl.carousel.js"></script>
     <script src="js/index.js"></script>
