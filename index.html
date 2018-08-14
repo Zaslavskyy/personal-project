@@ -13,6 +13,11 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
@@ -101,7 +106,7 @@
        </div>
   
     <div id="googlemap">
-          <iframe src="https://www.google.com/maps/d/embed?mid=1L6R7djrZbHuCdcRCZFY6fKamCpblH6aK" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen>
+          <iframe src="https://www.google.com/maps/d/embed?mid=1L6R7djrZbHuCdcRCZFY6fKamCpblH6aK" width="1200" height="800" style="border:0" allowfullscreen>
           </iframe>
     </div>
     <main>
@@ -249,21 +254,29 @@
     <div id="contactform">
         <h2 id="details">Дізнайтесь усі деталі подорожі</h2>
        <form method="POST" action="https://formspree.io/oleh.zaslavskyy@gmail.com">
-           <input type="text" name="name" value="Ім'я"/>
-           <input type="tel" name="phone" value="Телефон" required/>
-           <input type="email" name="email" value="E-mail" name="_replyto" required>
+           <input type="text" name="name" placeholder="Ім'я"/>
+           <input type="tel" name="phone" placeholder="Телефон" required/>
+           <input type="email" placeholder="E-mail" name="_replyto" required>
            <label>Залиште контакти і ми надішлемо Вам детальну програму</label>
            <button type="submit" class="btn btn-success btn-lg">Отримати програму туру</button>
        </form>
     </div>
     <footer>
         <div id="socialnetworks">
+            <p>
+                <i class="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/zas_lovesky/">https://www.instagram.com/zas_lovesky/</a>
+            </p>
+            <p>
+                <i class="fab fa-facebook"></i>
+                <a href="https://www.facebook.com/oleh.zas">https://www.facebook.com/oleh.zas</a>
+            </p>
         </div>
         <nav>
-            <a href="#impression">Враження</a>
-            <a href="#map">Карта маршруту</a>
-            <a href="#program">Програма туру</a>
-            <a href="#contacts">Контакти</a>
+            <a href="#infographic">Враження</a>
+            <a href="#googlemap" class="line">Карта маршруту</a>
+            <a href="#price" class="line">Програма туру</a>
+            <a href="#contactform" class="line">Контакти</a>
         </nav>
     </footer>
     <script
