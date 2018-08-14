@@ -27,6 +27,7 @@ nav a {
 }
  nav a:hover {
     text-decoration: underline;
+    color: white;
 }
 .line { 
     border-left: 2px solid #02091A;
@@ -46,6 +47,7 @@ nav a {
 }
 h2 {
     padding-top: 15px;
+    padding-bottom: 15px;
     margin-top: 0;
     font-size: 48px;
     text-align: center;
@@ -93,7 +95,7 @@ h3 {
 #button {
     padding-bottom: 75px;
 }
-.mybutton {
+.coverbutton {
 	-moz-box-shadow:inset 0px 0px 0px 0px #caefab;
 	-webkit-box-shadow:inset 0px 0px 0px 0px #caefab;
 	box-shadow:inset 0px 0px 0px 0px #caefab;
@@ -113,12 +115,15 @@ h3 {
 	text-shadow:0px 0px 0px #aade7c;
 	text-align: center center;
 }
-.myButton:hover {
-	background-color: red;
+.coverbutton:hover {
+	background-color: #329209 ;
+	text-decoration: underline;
+    color: white;
+    border:2px solid #77d42a
 }
-.myButton:active {
+.coverbutton:active {
 	position:relative;
-	top:1px;
+	top:2px;
 }
 .describe {
     width: 100%;
@@ -127,7 +132,7 @@ h3 {
     margin-left: 20px;
     padding-left: 10px;
 }
-span {
+.info p span {
     font-size: 24px;
     font-family: Helvetica, sans-serif;
 }
@@ -216,7 +221,6 @@ main {
 #photoreport {
     background-color: #329209;
     height: 175px;
-    margin-top: 20px;
     padding: 0;
     background-position: center center;
     color: white;
@@ -236,6 +240,18 @@ main {
     margin-top: 25px;
     border-bottom: 2px solid #329209;
     padding-bottom: 25px;
+}
+.price span {
+    padding-left: 28px;
+}
+#calendar .price span {
+    padding-left: 32px;
+}
+#peoplegroup .price span {
+    padding-left: 14px;
+}
+.price i {
+    color: #329209;
 }
 .info {
     width: 25%;
@@ -285,21 +301,39 @@ li span {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.firstdayimg {
-    background: url("../img/bluelagoon.jpg") no-repeat center top;
+img {
+    background: no repeat
 }
-.thirddayimg {
-    background: url("../img/whalewatching.jpg") no-repeat center top;
+.firstdaytext, .thirddaytext, .fifthdaytext, .seventhdaytext {
+    padding-top: 18px;
 }
-.fifthdayimg {
-    background: url("../img/blackbeach.jpg") no-repeat center top;
+.firstdayimg, .fifthdayimg {
+    padding-left: 35px;
 }
-.seventhdayimg {
-    background: url("../img/hotgeyser.jpg") no-repeat center top;
+.thirddaytext, .seventhdaytext {
+    padding-left: 35px;
 }
-#fifthsixth {
-    padding-left: 30px;
+.firstdaytext {
+    padding-right: 26px;
 }
+.fifthdaytext {
+    padding-right: 26px;
+}
+/*.firstdayimg {*/
+/*    background: url("../img/bluelagoon.jpg") no-repeat center top;*/
+/*}*/
+/*.thirddayimg {*/
+/*    background: url("../img/whalewatching.jpg") no-repeat center top;*/
+/*}*/
+/*.fifthdayimg {*/
+/*    background: url("../img/blackbeach.jpg") no-repeat center top;*/
+/*}*/
+/*.seventhdayimg {*/
+/*    background: url("../img/hotgeyser.jpg") no-repeat center top;*/
+/*}*/
+/*#fifthsixth {*/
+/*    padding-left: 30px;*/
+/*}*/
 #googlemap{
     overflow: hidden;
     padding-bottom: 56.25%;
@@ -377,4 +411,5 @@ i {
 }
 #socialnetworks p a:hover {
     text-decoration: underline;
+    color: white;
 }
