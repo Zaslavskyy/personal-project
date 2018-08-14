@@ -305,7 +305,7 @@ img {
     background: no repeat
 }
 .firstdaytext, .thirddaytext, .fifthdaytext, .seventhdaytext {
-    padding-top: 18px;
+    padding-top: 2px;
 }
 .firstdayimg, .fifthdayimg {
     padding-left: 35px;
