@@ -25,7 +25,7 @@ nav a {
     color: black;
     text-decoration: none;
 }
- nav a:hover {
+nav a:hover {
     text-decoration: underline;
     color: white;
 }
@@ -156,12 +156,8 @@ h3 {
     padding: 0;
     border: 0;
     float: left;
-}
-#hotspring {
-  background: url("../img/hotspring.jpg") no-repeat center center;
-  height: 250px;
-  width: 400px;
-  margin: 0 auto;
+    height: 250px;
+    width: 400px;
 }
 .onpictures {
   opacity: 0;
@@ -179,35 +175,23 @@ div.nature:hover .onpictures {
   background: rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
+#hotspring {
+  background: url("../img/hotspring.jpg") no-repeat center center;
+}
 #glacier {
   background: url("../img/glacier.jpg") no-repeat center center;
-  height: 250px;
-  width: 400px;
-  margin: 0 auto;
 }
 #waterfall {
   background: url("../img/waterfall.jpg") no-repeat center center;
-  height: 250px;
-  width: 400px;
-  margin: 0 auto;
 }
 #geyser {
   background: url("../img/geyser.jpg") no-repeat center center;
-  height: 250px;
-  width: 400px;
-  margin: 0 auto;
 }
 #nature {
   background: url("../img/nature.jpg") no-repeat center center;
-  height: 250px;
-  width: 400px;
-  margin: 0 auto;
 }
 #town {
   background: url("../img/town.jpg") no-repeat center center;
-  height: 250px;
-  width: 400px;
-  margin: 0 auto;
 }
 #price {
     width: 100%;
@@ -321,10 +305,6 @@ img {
     background: no repeat;
     width: 100%;
 }
-
-/*.firstdayimg, .thirddayimg, .fifthdayimg, .seventhdayimg {*/
-/*    width: 100%;*/
-/*}*/
 .firstdaytext, .thirddaytext, .fifthdaytext, .seventhdaytext {
     padding-top: 2px;
 }
@@ -340,35 +320,6 @@ img {
 .fifthdaytext {
     padding-right: 26px;
 }
-/*.firstdayimg {*/
-/*    background: url("../img/bluelagoon.jpg") no-repeat center top;*/
-/*}*/
-/*.thirddayimg {*/
-/*    background: url("../img/whalewatching.jpg") no-repeat center top;*/
-/*}*/
-/*.fifthdayimg {*/
-/*    background: url("../img/blackbeach.jpg") no-repeat center top;*/
-/*}*/
-/*.seventhdayimg {*/
-/*    background: url("../img/hotgeyser.jpg") no-repeat center top;*/
-/*}*/
-/*#fifthsixth {*/
-/*    padding-left: 30px;*/
-/*}*/
-/*#googlemap{*/
-/*    overflow: hidden;*/
-/*    padding-bottom: 56.25%;*/
-/*    position: relative;*/
-/*    height: 800px;*/
-/*    width: 1200px;*/
-/*}*/
-/*#googlemap iframe{*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*    height: 100%;*/
-/*    width: 100%;*/
-/*    position: absolute;*/
-/*}*/
 #contactform {
     background: url("../img/contacts_cover.jpg") no-repeat center top;
     display: flex;
@@ -435,15 +386,7 @@ i {
     color: white;
 }
 
-/*@media (max-width: 1216px) {*/
-/*    .naturepictures {*/
-/*        display: flex;*/
-/*        flex-direction: column;*/
-/*        justify-content: center;*/
-/*        align-items: center;*/
-/*        background-color: #329209;*/
-/*}*/
-/*}*/
+
 
 
 @media (max-width: 816px) {
@@ -463,12 +406,12 @@ i {
     #price {
         display: flex;
         flex-direction: column;
-}
+    }
     .pricerows {
         display: block;
         margin-left: auto;
         margin-right: auto 
-}
+    }
     .naturepictures {
         display: flex;
         flex-direction: column;
