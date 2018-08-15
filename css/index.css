@@ -136,6 +136,9 @@ h3 {
     font-size: 24px;
     font-family: Helvetica, sans-serif;
 }
+.info img {
+    max-width: 150px;
+}
 .shortinfo {
     font-size: 18px;
     font-family: Helvetica, sans-serif;
@@ -155,7 +158,7 @@ h3 {
     float: left;
 }
 #hotspring {
-  background: url("../img/hotspring.jpg") no-repeat center top;
+  background: url("../img/hotspring.jpg") no-repeat center center;
   height: 250px;
   width: 400px;
   margin: 0 auto;
@@ -177,31 +180,31 @@ div.nature:hover .onpictures {
   cursor: pointer;
 }
 #glacier {
-  background: url("../img/glacier.jpg") no-repeat center top;
+  background: url("../img/glacier.jpg") no-repeat center center;
   height: 250px;
   width: 400px;
   margin: 0 auto;
 }
 #waterfall {
-  background: url("../img/waterfall.jpg") no-repeat center top;
+  background: url("../img/waterfall.jpg") no-repeat center center;
   height: 250px;
   width: 400px;
   margin: 0 auto;
 }
 #geyser {
-  background: url("../img/geyser.jpg") no-repeat center top;
+  background: url("../img/geyser.jpg") no-repeat center center;
   height: 250px;
   width: 400px;
   margin: 0 auto;
 }
 #nature {
-  background: url("../img/nature.jpg") no-repeat center top;
+  background: url("../img/nature.jpg") no-repeat center center;
   height: 250px;
   width: 400px;
   margin: 0 auto;
 }
 #town {
-  background: url("../img/town.jpg") no-repeat center top;
+  background: url("../img/town.jpg") no-repeat center center;
   height: 250px;
   width: 400px;
   margin: 0 auto;
@@ -285,8 +288,8 @@ h5 {
   flex-direction: column;
 }
 #infographrow img {
-float: left;
-padding-right: 15px;
+    float: left;
+    padding-right: 15px;
 }
 .euro {
     font-family: 'Roboto Slab', serif;
@@ -315,8 +318,13 @@ li span {
     grid-template-columns: 1fr 1fr;
 }
 img {
-    background: no repeat
+    background: no repeat;
+    width: 100%;
 }
+
+/*.firstdayimg, .thirddayimg, .fifthdayimg, .seventhdayimg {*/
+/*    width: 100%;*/
+/*}*/
 .firstdaytext, .thirddaytext, .fifthdaytext, .seventhdaytext {
     padding-top: 2px;
 }
@@ -347,20 +355,20 @@ img {
 /*#fifthsixth {*/
 /*    padding-left: 30px;*/
 /*}*/
-#googlemap{
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 800px;
-    width: 1200px;
-}
-#googlemap iframe{
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
+/*#googlemap{*/
+/*    overflow: hidden;*/
+/*    padding-bottom: 56.25%;*/
+/*    position: relative;*/
+/*    height: 800px;*/
+/*    width: 1200px;*/
+/*}*/
+/*#googlemap iframe{*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    position: absolute;*/
+/*}*/
 #contactform {
     background: url("../img/contacts_cover.jpg") no-repeat center top;
     display: flex;
@@ -425,4 +433,116 @@ i {
 #socialnetworks p a:hover {
     text-decoration: underline;
     color: white;
+}
+
+/*@media (max-width: 1216px) {*/
+/*    .naturepictures {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*        background-color: #329209;*/
+/*}*/
+/*}*/
+
+
+@media (max-width: 816px) {
+    .naturepictures {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #329209;
+    }
+    label {
+        font-size: 18px;
+    }
+    footer nav {
+        font-size: 14px;
+    }
+    #price {
+        display: flex;
+        flex-direction: column;
+}
+    .pricerows {
+        display: block;
+        margin-left: auto;
+        margin-right: auto 
+}
+    .naturepictures {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+    #tourprogram {
+        display: flex;
+        flex-direction: column;
+}
+.firstdayimg, .fifthdayimg {
+    display: none;
+}
+.firstdaytext, .fifthdaytext {
+    padding-left: 35px;
+}
+h1 {
+    font-size: 82px !important;
+}
+}
+
+
+@media (max-width: 702px) {
+footer nav {
+    display: none;
+}
+}
+
+
+@media (max-width: 632px) {
+    #photoreport, label {
+        display: none;
+    }
+    .btn {
+        margin-top: 40px;
+    }
+    #price {
+        display: flex;
+        flex-direction: column;
+        text-align: left !important;
+}
+}
+
+@media (max-width: 498px) {
+    #we, #infographic, .places :last-child {
+        display: none;
+    }
+    input {
+        width: 292px;
+        height: 42px;
+}
+    .coverbutton{
+        padding: 24px 32px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .places, .naturepictures, header nav :first-child {
+         display: none;
+    }
+    h1 {
+        font-size: 48px !important;
+    }
+    #date {
+        font-size: 26px !important;
+    }
+    #people {
+        font-size: 18px !important;
+    }
+    #price{
+       font-size: 0.875em;
+    }
+    .coverbutton {
+        padding: 16px 16px;
+    }
 }
