@@ -157,7 +157,7 @@ h3 {
     border: 0;
     float: left;
     height: 250px;
-    width: 400px;
+    width: 33.33333%;
 }
 .onpictures {
   opacity: 0;
@@ -380,10 +380,10 @@ i {
     color: white;
 }
 
-
-
-
 @media (max-width: 816px) {
+    .nature {
+    width: 100% !important;
+}
     .naturepictures {
         display: flex;
         flex-direction: column;
