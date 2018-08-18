@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 body {
     max-width: 1200px;
     margin: 0 auto;
@@ -10,13 +11,10 @@ nav {
     background-color: #329209;
     height: 175px;
     margin: 0;
-    padding-top: 100px;
-    padding-right: 20px;
+    padding: 100px 20px 0px 0px;
     text-align: right;
     font-size: 18px;
     background-position: center center;
-    margin-left: 0;
-    padding-left: 0;
     list-style-type: none;
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
@@ -27,7 +25,7 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
-    color: white;
+    color: #ffffff;
 }
 .line { 
     border-left: 2px solid #02091A;
@@ -37,24 +35,19 @@ nav a:hover {
 #title {
     background-color: #329209;
     height: 175px;
-    margin: 0;
-    padding: 0;
     background-position: center center;
-    color: white;
+    color: #ffffff;
     text-align: center;
     top: 80%;
     left: 50%;
 }
 h2 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 0;
+    padding: 15px 0px;
     font-size: 48px;
     text-align: center;
     max-width: 100%
 }
 h3 {
-    margin: 0;
     font-size: 26px;
     padding-top: 15px;
     font-family: 'Roboto Slab', serif;
@@ -64,12 +57,9 @@ h3 {
     background-position: center center;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 10%;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
 }
 #cover h1 {
     padding-top: 120px;
@@ -86,7 +76,7 @@ h3 {
     font-size: 48px;
 }
 #people {
-   min-width: 10%;
+    min-width: 10%;
     text-align: center;
     color: white;
     font-size: 36px;
@@ -96,29 +86,25 @@ h3 {
     padding-bottom: 75px;
 }
 .coverbutton {
-	-moz-box-shadow:inset 0px 0px 0px 0px #caefab;
-	-webkit-box-shadow:inset 0px 0px 0px 0px #caefab;
-	box-shadow:inset 0px 0px 0px 0px #caefab;
-	background-color:#77d42a;
-	-moz-border-radius:42px;
-	-webkit-border-radius:42px;
-	border-radius:42px;
-	border:2px solid #329209;
-	display:inline-block;
-	cursor:pointer;
-	color:#306108;
-	font-family:Verdana;
-	font-size:21px;
-	font-weight:bold;
-	padding:32px 76px;
-	text-decoration:none;
-	text-shadow:0px 0px 0px #aade7c;
+	box-shadow: inset 0px 0px 0px 0px #caefab;
+	background-color: #77d42a;
+	border-radius: 42px;
+	border: 2px solid #329209;
+	display: inline-block;
+	cursor: pointer;
+	color: #306108;
+	font-family: Verdana;
+	font-size: 21px;
+	font-weight: bold;
+	padding: 32px 76px;
+	text-decoration: none;
+	text-shadow: 0px 0px 0px #aade7c;
 	text-align: center center;
 }
 .coverbutton:hover {
 	background-color: #329209 ;
 	text-decoration: underline;
-    color: white;
+    color: #ffffff;
     border:2px solid #77d42a
 }
 .coverbutton:active {
@@ -151,47 +137,51 @@ h3 {
     font-size: 30px;
     font-family: Helvetica, sans-serif;
 }
+.naturepictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #329209;
+}
 .nature {
-    margin: 0;
-    padding: 0;
     border: 0;
-    float: left;
     height: 250px;
-    width: 33.33333%;
+    width: 400px;
 }
 .onpictures {
-  opacity: 0;
-  font-size: 22px;
-  font-weight: 700;
-  font-family: 'Roboto Slab', serif;
-  line-height: 250px;
-  text-align: center;
-  color: white;
-  transition: .5s ease;
-  margin: 0;
+    width: 400px;
+    opacity: 0;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    line-height: 250px;
+    text-align: center;
+    color: white;
+    transition: .5s ease;
 }
 div.nature:hover .onpictures {
-  opacity: 1;
-  background: rgba(0, 0, 0, 0.5);
-  cursor: pointer;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 #hotspring {
-  background: url("../img/hotspring.jpg") no-repeat center center;
+    background: url("../img/hotspring.jpg") no-repeat center center;
 }
 #glacier {
-  background: url("../img/glacier.jpg") no-repeat center center;
+    background: url("../img/glacier.jpg") no-repeat center center;
 }
 #waterfall {
-  background: url("../img/waterfall.jpg") no-repeat center center;
+    background: url("../img/waterfall.jpg") no-repeat center center;
 }
 #geyser {
-  background: url("../img/geyser.jpg") no-repeat center center;
+    background: url("../img/geyser.jpg") no-repeat center center;
 }
 #nature {
-  background: url("../img/nature.jpg") no-repeat center center;
+    background: url("../img/nature.jpg") no-repeat center center;
 }
 #town {
-  background: url("../img/town.jpg") no-repeat center center;
+    background: url("../img/town.jpg") no-repeat center center;
 }
 #price {
     width: 100%;
@@ -215,9 +205,8 @@ main {
 #photoreport {
     background-color: #329209;
     height: 175px;
-    padding: 0;
     background-position: center center;
-    color: white;
+    color: #ffffff;
     text-align: center;
     top: 80%;
 }
@@ -230,10 +219,9 @@ main {
 #infographic {
     display: flex;
     text-align: center;
-    padding-top: 25px;
+    padding: 25px 0px;
     margin-top: 25px;
     border-bottom: 2px solid #329209;
-    padding-bottom: 25px;
 }
 .price span {
     padding-left: 28px;
@@ -262,8 +250,8 @@ h5 {
     margin-bottom: 15px;
 }
 #infographrow {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 #infographrow img {
     float: left;
@@ -335,7 +323,7 @@ input {
     font-family: 'Helvetica', sans-serif;
     font-size: 36px;
     font-weight: bold;
-    color: white;
+    color: #ffffff;
     padding-top: 46px;
 }
 input {
@@ -345,7 +333,7 @@ label {
     font-family: 'Helvetica', sans-serif;
     font-size: 26px;
     font-weight: bold;
-    color: white;
+    color: #ffffff;
     padding-top: 46px;
     padding-bottom: 40px;
 }
@@ -359,8 +347,7 @@ footer {
     justify-content: space-between;
 }
 footer nav {
-    padding-top: 20px;
-    padding-right: 20px;
+    padding: 20px 20px 0px 0px;
     align-self: flex-end;
 }
 i {
@@ -368,8 +355,7 @@ i {
     padding-right: 5px;
 }
 #socialnetworks {
-    padding-left: 20px;
-    padding-top: 10px;
+    padding: 10px 0px 0px 20px;
 }
 #socialnetworks p a {
     color: black;
@@ -381,16 +367,6 @@ i {
 }
 
 @media (max-width: 816px) {
-    .nature {
-    width: 100% !important;
-}
-    .naturepictures {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #329209;
-    }
     label {
         font-size: 18px;
     }
@@ -406,32 +382,26 @@ i {
         margin-left: auto;
         margin-right: auto 
     }
-    .naturepictures {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-}
     #tourprogram {
         display: flex;
         flex-direction: column;
-}
-.firstdayimg, .fifthdayimg {
-    display: none;
-}
-.firstdaytext, .fifthdaytext {
-    padding-left: 35px;
-}
-h1 {
+    }
+    .firstdayimg, .fifthdayimg {
+        display: none;
+    }
+    .firstdaytext, .fifthdaytext {
+        padding-left: 35px;
+    }
+    h1 {
     font-size: 82px !important;
-}
+    }
 }
 
 
 @media (max-width: 702px) {
-footer nav {
-    display: none;
-}
+    footer nav {
+        display: none;
+    }
 }
 
 
@@ -446,7 +416,7 @@ footer nav {
         display: flex;
         flex-direction: column;
         text-align: left !important;
-}
+    }
 }
 
 @media (max-width: 498px) {
@@ -464,8 +434,11 @@ footer nav {
 
 
 @media (max-width: 420px) {
-    .places, .naturepictures, header nav :first-child {
-         display: none;
+    .places, header nav :first-child {
+        display: none;
+    }
+    .naturepictures {
+        width: 320;
     }
     h1 {
         font-size: 48px !important;
